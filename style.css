@@ -1,0 +1,41 @@
+body {
+	max-width: 100%;
+	background-color: black;
+}
+
+div {
+	color: white;
+	text-align: center;
+	font-size: 20px;
+	font-family: 'Nova Square';
+
+}
+
+#doors {
+	max-width: 55%;
+	margin: 0 auto;
+	margin-top: 5%;
+
+}
+
+img{
+	max-width: 26%;
+	padding: 1%;
+	text-align: center;
+	display: inline;	
+
+}
+
+#winner, #sad, #spooky {
+	display: none;
+}
+
+#surprise, #lose1, #lose2{
+	max-width: 90%;
+	display: none;
+	margin: 0 auto;
+}
+
+
+
+
