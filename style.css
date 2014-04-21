@@ -19,9 +19,6 @@ div {
 
 }
 
-#loader {
-
-}
 
 img {
 	max-width: 15%;
@@ -30,6 +27,11 @@ img {
 	display: inline;	
 
 }
+
+#loader img{
+	max-width: 50%;
+}
+
 
 #winner, #sad, #spooky {
 	display: none;
