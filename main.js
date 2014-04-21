@@ -9,6 +9,8 @@ var lose2 = document.getElementById('lose2');
 var sad = document.getElementById('sad');
 var spooky = document.getElementById('spooky');
 var doors = document.getElementById('doors');
+var img = document.getElementsByTagName('img');
+
 
 var open = document.createElement('audio');
 open.setAttribute('src', 'open.wav');
@@ -18,8 +20,6 @@ var cat = document.createElement('audio');
 cat.setAttribute('src', 'cat.wav');
 var ohno = document.createElement('audio');
 ohno.setAttribute('src', 'ghost.mp3');
-
-
 
 doors.addEventListener('click', function() {
 	open.play();
@@ -63,6 +63,8 @@ doors.addEventListener('click', function() {
 })
 
 
+loader.style.display = 'none';
+doors.style.display = 'inline';
 
 };
 

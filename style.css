@@ -15,11 +15,16 @@ div {
 	max-width: 55%;
 	margin: 0 auto;
 	margin-top: 5%;
+	display: none;
 
 }
 
-img{
-	max-width: 26%;
+#loader {
+
+}
+
+img {
+	max-width: 15%;
 	padding: 1%;
 	text-align: center;
 	display: inline;	
